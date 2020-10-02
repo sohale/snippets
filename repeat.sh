@@ -1,3 +1,5 @@
+# An alternative to `watch` command in bash with logging for recording change.
+
 # watch bash call.sh |tee outputs.log
 
 #bash call.sh | sed -r "s/\x1B\[([0-9]{1,3}(;[0-9]{1,2})?)?[mGK]//g"
